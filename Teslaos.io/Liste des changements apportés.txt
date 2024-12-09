@@ -1,0 +1,4 @@
+Liste des changements apportés depuis la dernière mise à jour :
+
+- Ajout d'une app horloge, faire le canva pour ajouter le lien
+- Ajout d'un icone Paramètres et d'un formulaire de paramètres pour voiture tesla
