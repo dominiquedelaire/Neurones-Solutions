@@ -2,7 +2,7 @@
 
 
 > - I created **`Unicorn language`** for shellbots and others systems to **`create quickly GUI interface for IA Services`**. You can use Unicorn also to **`create GUI for game, audio, machine learning, health solutions, Camera app, etc.`**   
-> - No need to know Python or specific library. Solutions created with Unicorn can be run on linux, windows, macos, shellbotsos, and cloud platforms (azure, amazon, etc.).  
+> - No need to know Python or specific library. Solutions created with Unicorn can be run on **linux, windows, macos, shellbotsos, and cloud platforms (azure, amazon, etc.)**.  
 > - **`Compile to get in real time Python code ready to execute for your ia services or others programs.`**
 
 ```
