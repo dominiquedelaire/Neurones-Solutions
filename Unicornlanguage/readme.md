@@ -19,8 +19,6 @@ We mix several libraries as DearPyGui, Shellbots, OpenCV, langchain, etc.
 
 ## Architecture
 
-## Engine to reduce source code, transformation and source code validation checking
-[Unicorn.config](unicorn.config)
 
 ## Tutorials
 
