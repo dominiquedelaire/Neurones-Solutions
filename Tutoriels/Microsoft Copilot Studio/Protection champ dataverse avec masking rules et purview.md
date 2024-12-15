@@ -91,9 +91,39 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 # Partie 2 : 
 
 
-# Partie 3 : Protection de la donnée Cellulaire avec les "Masking Rules"
+# Partie 3 : Protection de la donnée Cellulaire avec les "Masking Rules" pour Copilot Studio et autres apps externes.
+### Etape 1 :
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 59 14" src="https://github.com/user-attachments/assets/dfbc28d9-ea65-4f71-8196-f96c75f92243" />
 
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 16 57 08" src="https://github.com/user-attachments/assets/e99c1a56-6962-4497-886f-9e98ec8bedfc" />
 
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 16 58 56" src="https://github.com/user-attachments/assets/55c3bef2-8620-4330-8722-0334afa84b51" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 16 59 29" src="https://github.com/user-attachments/assets/fe9c2181-2af4-4a27-8167-ad4d73150469" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 01 48" src="https://github.com/user-attachments/assets/abd9655f-63fc-4730-91f4-1ad11631bdb1" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 02 03" src="https://github.com/user-attachments/assets/bac5e80e-5c07-432d-935a-66885160748c" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 02 26" src="https://github.com/user-attachments/assets/1f91723a-8029-44eb-a0fa-f1597837f287" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 02 45" src="https://github.com/user-attachments/assets/c4636a47-36e2-44e8-9f9f-7ebfa8251c82" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 04 03" src="https://github.com/user-attachments/assets/599486f5-8734-41df-9288-0c64449b0ee5" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 04 25" src="https://github.com/user-attachments/assets/5cc11f87-d6f1-4e42-9115-30b8c3949023" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 08 15" src="https://github.com/user-attachments/assets/eaa46492-a576-4a44-af91-b65dddbbc686" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 12 11" src="https://github.com/user-attachments/assets/cd417087-0dfb-4a3b-8ba9-a3c044d7e36b" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 12 25" src="https://github.com/user-attachments/assets/cb21d196-b054-4de3-a22c-82d801c28803" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 12 58" src="https://github.com/user-attachments/assets/97527e1e-e14b-4bf8-90a0-b835c2679f14" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 13 17" src="https://github.com/user-attachments/assets/343c51d9-a2c7-4c11-a951-2a6539db8278" />
+
+<img width="398" alt="Capture d’écran, le 2024-12-14 à 17 06 42" src="https://github.com/user-attachments/assets/6f3c483f-52de-41f0-89f6-669bcfc4e9a8" />
 
 
 
