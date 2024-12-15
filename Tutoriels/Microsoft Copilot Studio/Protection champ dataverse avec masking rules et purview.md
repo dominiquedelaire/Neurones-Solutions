@@ -108,8 +108,6 @@ Pour afficher le résultat de ce test, il faut d'abord enregistrer votre règle 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 16 58 56" src="https://github.com/user-attachments/assets/55c3bef2-8620-4330-8722-0334afa84b51" />
 
 ### Etape 3 : Vous avez maintenant une nouvelle règle de "masking rule" dans votre solution qui s'appelle Cellulaire. Mais elle n'est pas encore lié à votre champ.   
-<img width="1680" alt="Capture d’écran, le 2024-12-15 à 16 59 29" src="https://github.com/user-attachments/assets/fe9c2181-2af4-4a27-8167-ad4d73150469" />
-
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 01 48" src="https://github.com/user-attachments/assets/abd9655f-63fc-4730-91f4-1ad11631bdb1" />
 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 02 03" src="https://github.com/user-attachments/assets/bac5e80e-5c07-432d-935a-66885160748c" />
