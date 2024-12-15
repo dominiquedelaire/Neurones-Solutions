@@ -75,6 +75,9 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 ### Etape 14 : Ensuite, je lui demande si j'ai un "Antoine" dans ma bd. Il m'indique que j'en ai un en effet.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 56 35" src="https://github.com/user-attachments/assets/a3b6d82a-bc8f-4c4d-9052-cd8223d9502d" />
 
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 57 40" src="https://github.com/user-attachments/assets/04c05e06-a41b-48e1-8b8d-643f1da7991d" />
+
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 58 19" src="https://github.com/user-attachments/assets/059b7093-d6b8-498f-93f0-1fcafce92061" />
 
 
 > Comme d'habitude, Si vous avez des questions ou un projet, vous pouvez me contacter sur [Linkedin](https://www.linkedin.com/in/dominiquedelaire/)
