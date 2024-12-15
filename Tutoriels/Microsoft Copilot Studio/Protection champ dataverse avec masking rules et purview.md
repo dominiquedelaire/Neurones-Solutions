@@ -92,8 +92,17 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 
 
 # Partie 3 : Protection de la donnée Cellulaire avec les "Masking Rules" pour Copilot Studio et autres apps externes.
-### Etape 1 :
+> 
+> **La fonction "Profils de sécurité de colonne" dans l'admin center de power platform ne suffit pas à protéger un champ ou la donnée du champ dans Copilot**
+> **Il faut utiliser aussi la nouvelle fonction préliminaire "Masking Rules" dans PowerApps.**
+
+### Etape 1 : Pour créer une nouvelle "Secured Masking Rule", aller dans votre solution PowerApps et/ou Dynamics, puis Ajouter un nouvel objet "Security"->"Secured masking rule".   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 16 57 08" src="https://github.com/user-attachments/assets/e99c1a56-6962-4497-886f-9e98ec8bedfc" />
+
+### Etape 2 : Dans l'écran, saisir un Nom. Attention ! Ici, vous devez indiquer votre préfixe d'éditeur si vous en avez un ou "new_". Car l'outil pour le moment ne le fait pas automatiquement. Et sinon, vous allez avoir une erreur à l'enregistrement de cette règle de sécurité.   
+Ensuite, saisir un **Nom d'affichage et une description**. Le point intéressant ici est que l'on peut mettre une **Expression régulière et un caractère qui va masquer tous les caractères répondant à cette expression régulière**. Voici pour info ce qu'il est possible de mettre : https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference   
+
+Pour tester votre expression régulière, vous pouvez dans la section de droite, ajouter un texte brut et/ou un texte enrichi pour voir le résultat du parsing de l'expression régulière dans les 2 champs en lecture seule.   
 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 16 58 56" src="https://github.com/user-attachments/assets/55c3bef2-8620-4330-8722-0334afa84b51" />
 
