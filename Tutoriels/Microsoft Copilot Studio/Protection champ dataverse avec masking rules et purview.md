@@ -1,7 +1,8 @@
 
 > Version 2024.12.13, Auteur : Dominique Delaire
 > 
-![TutorielSecuritecopilotstudio (1)](https://github.com/user-attachments/assets/33f70511-a1cc-46c9-b380-6076488549ac)
+![TutorielSecuritecopilotstudio (2)](https://github.com/user-attachments/assets/58d1a788-e6a5-4221-bf26-53fe2ae02a96)
+
 
 
 # Contexte
@@ -25,10 +26,11 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 
 # Introduction
 
-**3 grandes parties constituent le tutoriel :**
+**4 grandes parties constituent le tutoriel :**
 * **Première partie :** Présentation d'une powerapps model driven simple avec ses données et création d'un agent ia avec Copilot Studio interrogeant les données de l'application
 * **Deuxième partie :** Microsoft Purview et Azure : Protection des données sensibles de notre base de données dataverse de notre application et vérification de la protection avec notre Agent IA Copilot Studio
-* **Troisième partie :** Fonction "Masking Rules" de PowerApps : Protection des données sensibles de notre base de données dataverse de notre application et vérification de la protection avec notre Agent IA Copilot Studio 
+* **Troisième partie :** Fonction "Masking Rules" de PowerApps : Protection des données sensibles de notre base de données dataverse de notre application et vérification de la protection avec notre Agent IA Copilot Studio
+* **Conclusion :** Meilleure méthode à ce jour de protection et autres possibilités de sécurité.
 
 # Partie 1 : Présentation d'une App PowerApps model driven et ses données et Création d'un Agent avec Copilot Studio
 ### Etape 1 : Voici de quoi à l'air notre application PowerApps Model driven exemple "Mylife365". Nous utiliserons certaines de ses données pour notre tutoriel.   
@@ -79,7 +81,20 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 57 40" src="https://github.com/user-attachments/assets/04c05e06-a41b-48e1-8b8d-643f1da7991d" />
 
 ### Etape 16 : Enfin, un dernier test, et c'est cette donnée que nous allons vouloir sécuriser dans notre tutoriel. Quel est le cellulaire de Antoine ? Et l'agent me donne bien le numéro de téléphone.    
-<img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 58 19" src="https://github.com/user-attachments/assets/059b7093-d6b8-498f-93f0-1fcafce92061" />
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 58 19" src="https://github.com/user-attachments/assets/059b7093-d6b8-498f-93f0-1fcafce92061" />   
+
+> 
+> **En résumé** : Nous avons créé un simple Agent avec Copilot Studio pour répondre à des questions sur nos données d'une table Contact (entité).
+> **L'objectif maintenant est que notre Agent, lorsqu'il est interrogé sur la donnée Cellulaire, ne donne pas cette information.**
+> 
+
+# Partie 2 : 
+
+
+# Partie 3 : Protection de la donnée Cellulaire avec les "Masking Rules"
+
+
+
 
 
 > Comme d'habitude, Si vous avez des questions ou un projet, vous pouvez me contacter sur [Linkedin](https://www.linkedin.com/in/dominiquedelaire/)
