@@ -93,8 +93,6 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 
 # Partie 3 : Protection de la donnée Cellulaire avec les "Masking Rules" pour Copilot Studio et autres apps externes.
 ### Etape 1 :
-<img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 59 14" src="https://github.com/user-attachments/assets/dfbc28d9-ea65-4f71-8196-f96c75f92243" />
-
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 16 57 08" src="https://github.com/user-attachments/assets/e99c1a56-6962-4497-886f-9e98ec8bedfc" />
 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 16 58 56" src="https://github.com/user-attachments/assets/55c3bef2-8620-4330-8722-0334afa84b51" />
