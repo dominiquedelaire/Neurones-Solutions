@@ -31,12 +31,13 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 * **Troisième partie :** Fonction "Masking Rules" de PowerApps : Protection des données sensibles de notre base de données dataverse de notre application et vérification de la protection avec notre Agent IA Copilot Studio 
 
 # Partie 1 : Présentation d'une App PowerApps model driven et ses données et Création d'un Agent avec Copilot Studio
-## Etape 1 : Dans notre solution "Mylife365" (créez la votre), nous allons ajouter une nouvelle table.
-
+### Etape 1 : Voici de quoi à l'air notre application PowerApps Model driven exemple "Mylife365". Nous utiliserons certaines de ses données pour notre tutoriel.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 40 31" src="https://github.com/user-attachments/assets/12bb13eb-27b1-42c6-b672-df654ccf0ef7" />
 
+### Etape 2 : Dans le tutoriel, nous allons vouloir protéger la colonne "Cellulaire" de notre entité/table "Entité". C'est le numéro de téléphone mobile des contacts de la base de données.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 41 48" src="https://github.com/user-attachments/assets/c177b9c3-72e2-48f1-ad71-487f9e1d531f" />
 
+### Etape 3 : Nous allons maintenant créé un Agent IA avec Microsoft Copilot Studio. Allez dans votre environnement Copilot Studio à l'adresse https://copilotstudio.microsoft.com. Ne pas oubliez avant de créer un nouvel Agent, de sélectionner le bon environnement en haut à droite en cliquant sur Environnement. Les Agents peuvent ensuite être ajoutés à une ou plusieurs de vos solutions spécifiques PowerApps.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 43 11" src="https://github.com/user-attachments/assets/c87dcc34-464c-4c18-8e07-1515ea11dc14" />
 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 44 57" src="https://github.com/user-attachments/assets/d011b395-9a7d-4767-ba8f-22505e483af2" />
