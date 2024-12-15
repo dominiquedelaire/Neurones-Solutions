@@ -37,11 +37,13 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 ### Etape 2 : Dans le tutoriel, nous allons vouloir protéger la colonne "Cellulaire" de notre entité/table "Entité". C'est le numéro de téléphone mobile des contacts de la base de données.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 41 48" src="https://github.com/user-attachments/assets/c177b9c3-72e2-48f1-ad71-487f9e1d531f" />
 
-### Etape 3 : Nous allons maintenant créé un Agent IA avec Microsoft Copilot Studio. Allez dans votre environnement Copilot Studio à l'adresse https://copilotstudio.microsoft.com. Ne pas oubliez avant de créer un nouvel Agent, de sélectionner le bon environnement en haut à droite en cliquant sur Environnement. Les Agents peuvent ensuite être ajoutés à une ou plusieurs de vos solutions spécifiques PowerApps.   
+### Etape 3 : Nous allons maintenant créé un Agent IA avec Microsoft Copilot Studio. Allez dans votre environnement Copilot Studio à l'adresse https://copilotstudio.microsoft.com. Ne pas oubliez avant de créer un nouvel Agent, de sélectionner le bon environnement en haut à droite en cliquant sur Environnement. Les Agents peuvent ensuite être ajoutés à une ou plusieurs de vos solutions spécifiques PowerApps. Pour créer un nouvel Agent, cliquez sur le bouton "Créer" à gauche, puis choisir l'option "Nouvel assistant".    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 43 11" src="https://github.com/user-attachments/assets/c87dcc34-464c-4c18-8e07-1515ea11dc14" />
 
+### Etape 4 : Dans l'écran de création d'un nouvel agent, saisir le nom que vous souhaitez lui donner, vous pouvez changer son icône, mettre une description, des instructions. Ici, nous avons indiqué un Nom, une description et avons changé d'icône.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 44 57" src="https://github.com/user-attachments/assets/d011b395-9a7d-4767-ba8f-22505e483af2" />
 
+### Etape 5 : Nous allons ajouter une base de connaissance, c'est à dire nos données de notre Table Entité de notre bd Dataverse. Il faut d'abord cliquer sur "Créer" avant de pouvoir ajouter une base de données de type Dataverse dans la fonction "Ajouter des connaissances".   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 45 20" src="https://github.com/user-attachments/assets/e43326ea-403c-459a-82da-6dfa644b2daf" />
 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 46 09" src="https://github.com/user-attachments/assets/01cb88c2-7f42-41f7-aac1-6255913effa2" />
