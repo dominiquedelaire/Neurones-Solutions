@@ -66,10 +66,13 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 ### Etape 11 : Par exemple, ici, j'ai ajouté le terme Auteur en lien avec le champ "Créé par" de la table Entité.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 50 36" src="https://github.com/user-attachments/assets/c844363a-8cfe-4e96-ac07-edc521f983e2" />
 
+### Etape 12 : Ensuite, vous pouvez cliquer sur Retour, puis "Ajouter". Votre Agent, avec le peu d'informations que nous avons donné, peut déjà être testé.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 52 32" src="https://github.com/user-attachments/assets/ef526f0b-6819-456f-bdd8-f98d09ef0bfa" />
 
+### Etape 13 : A droite de votre agent, vous avez une section "Tester votre agent". Je lui pose ma première question :) Combien j'ai d'entités (de contacts). Il me répond 16, ce qui est juste.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 55 22" src="https://github.com/user-attachments/assets/77598bf5-f8ce-4c8e-aa7c-28698a9139e0" />
 
+### Etape 14 : Ensuite, je lui demande si j'ai un "Antoine" dans ma bd. Il m'indique que j'en ai un en effet.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 56 35" src="https://github.com/user-attachments/assets/a3b6d82a-bc8f-4c4d-9052-cd8223d9502d" />
 
 
