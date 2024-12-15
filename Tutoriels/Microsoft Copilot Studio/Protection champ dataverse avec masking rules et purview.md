@@ -102,10 +102,12 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 ### Etape 2 : Dans l'écran, saisir un Nom. Attention ! Ici, vous devez indiquer votre préfixe d'éditeur si vous en avez un ou "new_". Car l'outil pour le moment ne le fait pas automatiquement. Et sinon, vous allez avoir une erreur à l'enregistrement de cette règle de sécurité.   
 Ensuite, saisir un **Nom d'affichage et une description**. Le point intéressant ici est que l'on peut mettre une **Expression régulière et un caractère qui va masquer tous les caractères répondant à cette expression régulière**. Voici pour info ce qu'il est possible de mettre : https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference   
 
-Pour tester votre expression régulière, vous pouvez dans la section de droite, ajouter un texte brut et/ou un texte enrichi pour voir le résultat du parsing de l'expression régulière dans les 2 champs en lecture seule.   
+Pour tester votre expression régulière, vous pouvez dans la section de droite, ajouter un texte brut et/ou un texte enrichi pour voir le résultat du parsing de l'expression régulière dans les 2 champs en lecture seule.
+Pour afficher le résultat de ce test, il faut d'abord enregistrer votre règle et le résultat s'affichera dans les 2 champs :)   
 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 16 58 56" src="https://github.com/user-attachments/assets/55c3bef2-8620-4330-8722-0334afa84b51" />
 
+### Etape 3 : Vous avez maintenant une nouvelle règle de "masking rule" dans votre solution qui s'appelle Cellulaire. Mais elle n'est pas encore lié à votre champ.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 16 59 29" src="https://github.com/user-attachments/assets/fe9c2181-2af4-4a27-8167-ad4d73150469" />
 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 01 48" src="https://github.com/user-attachments/assets/abd9655f-63fc-4730-91f4-1ad11631bdb1" />
