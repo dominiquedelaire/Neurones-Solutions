@@ -48,16 +48,22 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 46 09" src="https://github.com/user-attachments/assets/01cb88c2-7f42-41f7-aac1-6255913effa2" />
 
+### Etape 6 : On peut ajouter maintenant des connaissances. Choisir "Dataverse (version préliminaire)".
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 46 37" src="https://github.com/user-attachments/assets/13ff8cbb-3ac2-4c49-99b1-487cfc73558b" />
 
+### Etape 7 : Ici, on peut sélectionner les tables (jusqu'à 15 tables maximum) qui vont nous servir de bases de connaissances dans notre Agent IA.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 46 55" src="https://github.com/user-attachments/assets/a5ee72fb-eef3-48ce-9d90-b0aa32937623" />
 
+### Etape 8 : Dans notre exemple, je vais juste sélectionner la table "Entité" de notre base de données Dataverse en lien avec notre PowerApps Mylife365.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 47 52" src="https://github.com/user-attachments/assets/7be9c832-09a9-4b6f-a7b4-28a66ca20002" />
 
+### Etape 9 : En faisant "Suivant", l'étape nous affiche quelques données de la table sélectionnée.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 49 17" src="https://github.com/user-attachments/assets/4acbc9b2-0f0e-47d2-9ceb-311ac4a33e5a" />
 
+### Etape 10 : En sélectionnant "Suivant", cette étape nous permet de vérifier les éléments sélectionnés. Avant de cliquer sur le bouton "Ajouter", vous pouvez ajouter des synonymes aussi par rapport à des champs spécifiques de votre table, afin que l'agent puisse aussi faire le rapprochement avec certains termes spécifiques.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 49 47" src="https://github.com/user-attachments/assets/b699c684-6418-424a-91f2-2ac517ce162f" />
 
+### Etape 11 : Par exemple, ici, j'ai ajouté le terme Auteur en lien avec le champ "Créé par" de la table Entité.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 50 36" src="https://github.com/user-attachments/assets/c844363a-8cfe-4e96-ac07-edc521f983e2" />
 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 52 32" src="https://github.com/user-attachments/assets/ef526f0b-6819-456f-bdd8-f98d09ef0bfa" />
