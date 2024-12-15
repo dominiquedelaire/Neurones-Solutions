@@ -75,8 +75,10 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 ### Etape 14 : Ensuite, je lui demande si j'ai un "Antoine" dans ma bd. Il m'indique que j'en ai un en effet.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 56 35" src="https://github.com/user-attachments/assets/a3b6d82a-bc8f-4c4d-9052-cd8223d9502d" />
 
+### Etape 15 : Un autre test, je lui demande combien j'ai de contacts qui sont dans la catégorie santé. Il me donne une liste de 3 contacts, ce qui est juste aussi.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 57 40" src="https://github.com/user-attachments/assets/04c05e06-a41b-48e1-8b8d-643f1da7991d" />
 
+### Etape 16 : Enfin, un dernier test, et c'est cette donnée que nous allons vouloir sécuriser dans notre tutoriel. Quel est le cellulaire de Antoine ? Et l'agent me donne bien le numéro de téléphone.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 15 58 19" src="https://github.com/user-attachments/assets/059b7093-d6b8-498f-93f0-1fcafce92061" />
 
 
