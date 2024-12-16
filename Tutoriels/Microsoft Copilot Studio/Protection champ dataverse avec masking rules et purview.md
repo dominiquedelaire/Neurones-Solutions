@@ -179,12 +179,22 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 ### Etape 23 : Puis on valide la création du key vault purview. 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 30 46" src="https://github.com/user-attachments/assets/a40a1310-2cc6-40df-a0d7-b6d729fb6724" />
 
-### Etape 24 : 
+### Etape 24 : Dans notre nouveau crédentiel Purview, on a récupéré notre keyvault et on doit mettre le nom du keyvault azure dans le champ "Secret Name". Ensuite, on clique sur Create pour finaliser la connection pour le scan.     
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 31 38" src="https://github.com/user-attachments/assets/5020d101-8e9a-49a2-bf75-65023cf7e37d" />
+
+### Etape 25 : Ici, sur un scan précédent, nous pouvons tester aussi la connection en cliquant sur "Test connection" en bas pour vérifier que toutes nos informations sont correctes et que Purview arrive bien à se connecter sur notre bd Dataverse.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 32 37" src="https://github.com/user-attachments/assets/bc86087d-dbbe-455e-bd64-5752251c3604" />
+
+### Etape 26 : Pour chaque scan, on peut voir le résultat et le statut si le scan a bien balayé notre base de données dataverse.  Un scan peut être planifié à une certaine fréquence et être automatisé et pour certaines tables seulement si on le souhaite.     
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 33 05" src="https://github.com/user-attachments/assets/bb4945ea-7c30-44ab-876e-1a0920a3283a" />
+
+### Etape 27 : Après le dernier scan, on voit dans notre collection, le nombre d'Assets (Eléments sélectionnés dans notre dataverse), le nombre de sources de données et le nombre de scans effectués.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 33 34" src="https://github.com/user-attachments/assets/acc9649f-c8b7-4023-908f-f4fb5be34350" />
+
+### Etape 28 : Dans nos tables dataverse, c'est ici que l'on va pouvoir déjà faire une classification de certains de nos champs.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 34 11" src="https://github.com/user-attachments/assets/3a1cfe77-4514-46e6-aa44-48e27a21b287" />
+
+### Etape 29 : 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 34 23" src="https://github.com/user-attachments/assets/828b1663-7592-4d08-a39c-a4532adf203d" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 34 50" src="https://github.com/user-attachments/assets/ad4776db-0954-4856-981a-2748963c480e" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 35 13" src="https://github.com/user-attachments/assets/a7fe34b4-2402-4a91-88d5-ba08945f4931" />
