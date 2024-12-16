@@ -164,12 +164,22 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 ### Etape 18 : Dernière chose, dans le compte Microsoft Purview lors de l'initialisation de Microsoft Purview, Vérifier qu'on a bien le rôle Owner d'assigner avec un utilisateur administrateur.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 28 20" src="https://github.com/user-attachments/assets/2d789ed3-15a9-465c-b653-4f6b36a3080a" />
 
-### Etape 19 : 
+### Etape 19 : Maintenant que nous avons tous les éléments, nous allons pouvoir commencer par créer un crédentiel en récupérant nos informations Azure.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 29 08" src="https://github.com/user-attachments/assets/6557b4ad-d1ab-4d57-98f1-9b961af88426" />
+
+### Etape 20 : On saisit le tenant ID, le service principal ID (Application ID de notre app registration Azure). 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 30 00" src="https://github.com/user-attachments/assets/31049b0e-7f31-428c-9fa8-b44fa5b8da68" />
+
+### Etape 21 : Pour le secret ID, il faut Créer une connection avec Un Key Vault Azure, cela tombe bien, on en a créé un à l'étape 15.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 30 11" src="https://github.com/user-attachments/assets/764d1fb7-593d-467b-afc8-52ee5ad4b973" />
+
+### Etape 22 : On saisi un nom de key vault purview et on l'associé à notre Key Vault Azure.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 30 37" src="https://github.com/user-attachments/assets/5e0e4c33-91ae-4899-a3e5-d29932264422" />
+
+### Etape 23 : Puis on valide la création du key vault purview. 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 30 46" src="https://github.com/user-attachments/assets/a40a1310-2cc6-40df-a0d7-b6d729fb6724" />
+
+### Etape 24 : 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 31 38" src="https://github.com/user-attachments/assets/5020d101-8e9a-49a2-bf75-65023cf7e37d" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 32 37" src="https://github.com/user-attachments/assets/bc86087d-dbbe-455e-bd64-5752251c3604" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 33 05" src="https://github.com/user-attachments/assets/bb4945ea-7c30-44ab-876e-1a0920a3283a" />
