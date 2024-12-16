@@ -221,11 +221,16 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 ### Etape 37 : Ici, on peut contrôler qui a accès à voir cette étiquette ou on peut aussi cacher la valeur de cette étiquette avec un watermark par exemple.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 37 26" src="https://github.com/user-attachments/assets/fa0bc0ca-ef22-4e49-bd42-56e771d4fc2a" />
 
-### Etape 38 : 
-<img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 37 33" src="https://github.com/user-attachments/assets/30bdd829-df53-4042-9b70-46dd457f3072" />
+### Etape 38 : Ici, on ignore ce paramètre, on veut le gérer uniquement dans notre base de données.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 37 49" src="https://github.com/user-attachments/assets/d805acab-7806-4d82-8c90-254feb8cac89" />
+
+### Etape 39 : On ignore ici le paramètre , c'est pour du microsoft teams, sharepoint et autres. 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 38 01" src="https://github.com/user-attachments/assets/23e81a69-4641-44f4-b7fa-47d369e9465c" />
+
+### Etape 40 : Paramètre important, on peut faire le lien ici sur l'étiquette en mettant la meme classification que notre champ tout à l'heure : EU Passport Number. 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 38 28" src="https://github.com/user-attachments/assets/6e83d05c-e44a-4918-bf15-b093293a468e" />
+
+### Etape 41 : 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 38 43" src="https://github.com/user-attachments/assets/acd2e763-6f4b-416d-b9ee-6ab98b0daae8" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 39 06" src="https://github.com/user-attachments/assets/bd572ced-0f56-4d70-ba73-0824411ddd32" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 39 32" src="https://github.com/user-attachments/assets/1ad2b199-d536-4f7d-9b1e-c646e5b317b9" />
