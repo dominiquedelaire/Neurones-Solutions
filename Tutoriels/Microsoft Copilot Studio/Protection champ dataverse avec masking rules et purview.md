@@ -29,10 +29,10 @@ Sans tout dévoiler, il y a bien une solution qui fonctionne très bien pour pro
 # Introduction
 
 **3 grandes parties et une conclusion constituent le tutoriel :**
-* **Première partie :** Présentation d'une powerapps model driven simple avec ses données et création d'un agent ia avec Copilot Studio interrogeant les données de l'application
+* [**Première partie :**](#partie-1--présentation-dune-app-powerapps-model-driven-et-ses-données-et-création-dun-agent-avec-copilot-studio) Présentation d'une powerapps model driven simple avec ses données et création d'un agent ia avec Copilot Studio interrogeant les données de l'application
 * **Deuxième partie :** Microsoft Purview et Azure : Protection des données sensibles de notre base de données dataverse de notre application et vérification de la protection avec notre Agent IA Copilot Studio
 * **Troisième partie :** Fonction "Masking Rules" de PowerApps : Protection des données sensibles de notre base de données dataverse de notre application et vérification de la protection avec notre Agent IA Copilot Studio
-* **Conclusion :** Meilleure méthode à ce jour de protection et autres possibilités de sécurité.
+* **Conclusion**
 
 # Partie 1 : Présentation d'une App PowerApps model driven et ses données et Création d'un Agent avec Copilot Studio
 ### Etape 1 : Voici de quoi à l'air notre application PowerApps Model driven exemple "Mylife365". Nous utiliserons certaines de ses données pour notre tutoriel.   
