@@ -110,12 +110,16 @@ Pour afficher le résultat de ce test, il faut d'abord enregistrer votre règle 
 ### Etape 3 : Vous avez maintenant une nouvelle règle de "masking rule" dans votre solution qui s'appelle Cellulaire. Mais elle n'est pas encore lié à votre champ.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 01 48" src="https://github.com/user-attachments/assets/abd9655f-63fc-4730-91f4-1ad11631bdb1" />
 
+### Etape 4 : Pour lier le champ à la règle "Masking rules" créée, on va dans la même solution de notre app et on va dans le design de la colonne "Cellulaire" dans la table "Entité".   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 02 03" src="https://github.com/user-attachments/assets/bac5e80e-5c07-432d-935a-66885160748c" />
 
+### Etape 5 : Dans le design de la colonne, on va dans "Advanced options", puis on coche la case "Enable column security".
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 02 26" src="https://github.com/user-attachments/assets/1f91723a-8029-44eb-a0fa-f1597837f287" />
 
+### Etape 6 : Puis en dessous, on sélectionne la règle "Masking rules" Protection cellulaire que l'on a créé à l'étape 2. On sauvegarde et on publie toutes les personnalisations de la solution.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 02 45" src="https://github.com/user-attachments/assets/c4636a47-36e2-44e8-9f9f-7ebfa8251c82" />
 
+### Etape 7 : Ensuite on doit gérer à qui on affecte/assigne cette sécurité de colonne (Equipe et/ou utilisateur).   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 04 03" src="https://github.com/user-attachments/assets/599486f5-8734-41df-9288-0c64449b0ee5" />
 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 04 25" src="https://github.com/user-attachments/assets/5cc11f87-d6f1-4e42-9115-30b8c3949023" />
