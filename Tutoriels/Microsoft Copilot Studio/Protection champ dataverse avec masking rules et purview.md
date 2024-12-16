@@ -16,6 +16,8 @@ Cette base de données est utilisée par une Application Power Apps Model driven
 
 Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retourner certaines valeurs de la base de données**. Pour cela, il y a plusieurs façons de faire, notamment avec **Microsoft Purview, Microsoft Azure et les fonctionnalités de "Masking Rules" (preview feature) de Power Apps** mais nous verrons qu'il y a quelques limites pour le moment pour certains de ces outils.
 
+Sans tout dévoiler, il y a bien une solution qui fonctionne très bien pour protéger un ou plusieurs valeurs de champs de table dans les requêtes Copilot et autres.
+
 # Prérequis
 * Avoir un **compte Microsoft PowerApps** et un environnement de développement disposant d'une solution avec quelques tables au moins ou prendre notre solution PowerApps Model driver Open Source "Mylife365" ou "Compta365" comme exemple.
 * Avoir activé les **features de préversion** pour Microsoft PowerApps pour bénéficier par exemple des **"Masking Rules"** dans la sécurité des champs (disponible depuis août 2024).
@@ -248,34 +250,12 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 ### Etape 46 : Malheureusement la politique que nous pourrions mettre en place ne fonctionne pas non plus encore pour le moment pour dataverse. C'est disponible pour Microsoft 365 Copilot mais pas pour Copilot Studio et les autres Copilot (Financial, Dynamics, etc...)
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 45 42" src="https://github.com/user-attachments/assets/02dee057-c2d0-47fd-9843-3b50f7eef3bf" />
 
+> 
+> **En résumé, Purview est un produit global de gouvernance de données mais qui n'a pas encore atteint une maturité pour pouvoir gérer tous les cas de sécurité, notamment avec dataverse**
+> **Bien sur, nous pouvons avoir des alertes sur les classifications configurées pour les champs dataverse ainsi que sur les étiquettes de sensibilité mais pour faire un lien avec des champs d'une bd, les bd sont limitées pour le moment à quelques unes (Azure sql database, Fabric, etc.)**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Voici un exemple de logs que Purview a détecté car j'ai demandé dans mon prompt le Cellulaire. L'agent copilot ne m'a pas bloqué mais cela a envoyé une alerte comme quoi Purview a trouvé cette classification.
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 22 37 08" src="https://github.com/user-attachments/assets/6a875779-2249-4446-8212-68da214f3b2c" />
 
 
 # Partie 3 : Protection de la donnée Cellulaire avec les "Masking Rules" pour Copilot Studio et autres apps externes.
