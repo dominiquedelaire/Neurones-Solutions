@@ -135,9 +135,8 @@ Pour afficher le résultat de ce test, il faut d'abord enregistrer votre règle 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 12 58" src="https://github.com/user-attachments/assets/97527e1e-e14b-4bf8-90a0-b835c2679f14" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 13 17" src="https://github.com/user-attachments/assets/343c51d9-a2c7-4c11-a951-2a6539db8278" />
 
-### Etape 12 :  
+### Etape 12 :  Si on se remet sur nos tests de notre Agent Copilot Studio, on lui repose la question du téléphone d'Antoine : Quel est le numéro d'Antoine ?, et l'agent répond soit un numéro masqué, soit il indique qu'il n'y a pas de numéros pour Antoine.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 14 33" src="https://github.com/user-attachments/assets/1c6768de-7c3f-423b-a669-3fc076c95e1b" />
-
 <img width="398" alt="Capture d’écran, le 2024-12-14 à 17 06 42" src="https://github.com/user-attachments/assets/6f3c483f-52de-41f0-89f6-669bcfc4e9a8" />
 
 
