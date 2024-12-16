@@ -30,9 +30,9 @@ Sans tout dévoiler, il y a bien une solution qui fonctionne très bien pour pro
 
 **3 grandes parties et une conclusion constituent le tutoriel :**
 * [**Première partie :**](#partie-1--présentation-dune-app-powerapps-model-driven-et-ses-données-et-création-dun-agent-avec-copilot-studio) Présentation d'une powerapps model driven simple avec ses données et création d'un agent ia avec Copilot Studio interrogeant les données de l'application
-* **Deuxième partie :** Microsoft Purview et Azure : Protection des données sensibles de notre base de données dataverse de notre application et vérification de la protection avec notre Agent IA Copilot Studio
-* **Troisième partie :** Fonction "Masking Rules" de PowerApps : Protection des données sensibles de notre base de données dataverse de notre application et vérification de la protection avec notre Agent IA Copilot Studio
-* **Conclusion**
+* [**Deuxième partie :**](#partie-2--gouvernance-et-protection-des-données-avec-microsoft-purview) Microsoft Purview et Azure : Protection des données sensibles de notre base de données dataverse de notre application et vérification de la protection avec notre Agent IA Copilot Studio
+* [**Troisième partie :**](#partie-3--protection-de-la-donnée-cellulaire-avec-les-masking-rules-pour-copilot-studio-et-autres-apps-externes) Fonction "Masking Rules" de PowerApps : Protection des données sensibles de notre base de données dataverse de notre application et vérification de la protection avec notre Agent IA Copilot Studio
+* [**Conclusion**](#conclusion)
 
 # Partie 1 : Présentation d'une App PowerApps model driven et ses données et Création d'un Agent avec Copilot Studio
 ### Etape 1 : Voici de quoi à l'air notre application PowerApps Model driven exemple "Mylife365". Nous utiliserons certaines de ses données pour notre tutoriel.   
@@ -308,6 +308,9 @@ Pour afficher le résultat de ce test, il faut d'abord enregistrer votre règle 
 ### Etape 12 :  Si on se remet sur nos tests de notre Agent Copilot Studio, on lui repose la question du téléphone d'Antoine : Quel est le numéro d'Antoine ?, et l'agent répond soit un numéro masqué, soit il indique qu'il n'y a pas de numéros pour Antoine.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 14 33" src="https://github.com/user-attachments/assets/1c6768de-7c3f-423b-a669-3fc076c95e1b" />
 <img width="398" alt="Capture d’écran, le 2024-12-14 à 17 06 42" src="https://github.com/user-attachments/assets/6f3c483f-52de-41f0-89f6-669bcfc4e9a8" />
+
+# Conclusion
+
 
 
 
