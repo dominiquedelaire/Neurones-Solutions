@@ -230,12 +230,22 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 ### Etape 40 : Paramètre important, on peut faire le lien ici sur l'étiquette en mettant la meme classification que notre champ tout à l'heure : EU Passport Number. 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 38 28" src="https://github.com/user-attachments/assets/6e83d05c-e44a-4918-bf15-b093293a468e" />
 
-### Etape 41 : 
+### Etape 41 : On obtient un récapitulatif complet du paramétrage de notre étiquette de sensibilité.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 38 43" src="https://github.com/user-attachments/assets/acd2e763-6f4b-416d-b9ee-6ab98b0daae8" />
+
+### Etape 42 : C'est ici que nous aurions pu paramétrer notre politique pour faire le lien avec notre champ Cellulaire et étiquette pour que notre Agent Copilot ne recoive pas le résultat de la requête et prompt.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 39 06" src="https://github.com/user-attachments/assets/bd572ced-0f56-4d70-ba73-0824411ddd32" />
+
+### Etape 43 : On peut voir qu'à la création d'une politique, on peut choisir notre étiquette cellulaire MAIS....    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 39 32" src="https://github.com/user-attachments/assets/1ad2b199-d536-4f7d-9b1e-c646e5b317b9" />
+
+### Etape 44 : Ensuite, on ne peut choisir pour l'instant que Microsoft Fabric et pas encore dataverse. On pourrait bien sûr faire une réplication de dataverse à microsoft Fabric mais cela nécessite encore plus d'automatisation. Dans quelques temps, Dataverse devrait s'ajouter ici pour gérer plus facilement les demandes des apps externes qui utilisent dataverse. Donc une limitation pour le moment. 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 39 51" src="https://github.com/user-attachments/assets/af24a76b-e5df-46b6-a88d-d73b26f6679c" />
+
+### Etape 45 : Il y aurait aussi un autre moyen de bloquer les prompts copilot avec le module "Data loss Prevention". MAIS.... 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 44 47" src="https://github.com/user-attachments/assets/e707e2f2-6825-4ce8-a62a-bda3c42a534f" />
+
+### Etape 46 : Malheureusement la politique que nous pourrions mettre en place ne fonctionne pas non plus encore pour le moment pour dataverse. C'est disponible pour Microsoft 365 Copilot mais pas pour Copilot Studio et les autres Copilot (Financial, Dynamics, etc...)
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 45 42" src="https://github.com/user-attachments/assets/02dee057-c2d0-47fd-9843-3b50f7eef3bf" />
 
 
