@@ -209,13 +209,19 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 ### Etape 33 :  Il y a des classifications par défaut et nous pouvons aussi en ajouter dans le paramétrage Purview. Ici j'ai indiqué que le cellulaire était un EU Passport Number mais même si ce n'est pas le càs, Purview va l'interpréter de cette façon.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 35 41" src="https://github.com/user-attachments/assets/91155691-3ef7-48e7-8088-41699004a920" />
 
-### Etape 34 : En plus des classifications, pour protéger nos données, nous pouvons définir des étiquettes de sensibilité.   
+### Etape 34 : En plus des classifications, pour protéger nos données, nous pouvons définir des étiquettes de sensibilité pour notre organisation et environnement.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 36 13" src="https://github.com/user-attachments/assets/1ad38fd1-101f-449b-9139-658997075afe" />
 
-### Etape 35 :  
+### Etape 35 : En éditant celle que j'ai créé auparavant, nous pouvons mettre un nom d'affichage et une priorité. La priorité est importante car si nous avons plusieurs étiquettes, elles vont être traitées dans l'ordre de priorité où 0 est la première traitée. C'est un peu comme un workflow car chaque étiquette possède des actions. 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 37 03" src="https://github.com/user-attachments/assets/04094cfb-c6ac-495e-9a7e-fa6c7c072ea3" />
+
+### Etape 36 : On peut définir le contexte et scope pour cette étiquette. Cela peut être pour tous les fichiers de votre onedrive, sharepoint, teams, etc. Et dans les données en cochant "Schematized data assets (preview)".   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 37 17" src="https://github.com/user-attachments/assets/2bd49d99-3609-480c-a396-4f349ba37b2a" />
+
+### Etape 37 : Ici, on peut contrôler qui a accès à voir cette étiquette ou on peut aussi cacher la valeur de cette étiquette avec un watermark par exemple.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 37 26" src="https://github.com/user-attachments/assets/fa0bc0ca-ef22-4e49-bd42-56e771d4fc2a" />
+
+### Etape 38 : 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 37 33" src="https://github.com/user-attachments/assets/30bdd829-df53-4042-9b70-46dd457f3072" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 37 49" src="https://github.com/user-attachments/assets/d805acab-7806-4d82-8c90-254feb8cac89" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 38 01" src="https://github.com/user-attachments/assets/23e81a69-4641-44f4-b7fa-47d369e9465c" />
