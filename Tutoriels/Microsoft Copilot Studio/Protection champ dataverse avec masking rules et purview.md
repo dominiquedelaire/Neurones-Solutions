@@ -158,9 +158,13 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 ### Etape 16 : Ici, j'ai créé un Keyvault nommé "datavers-keyvault" avec un type d'objet "Secrets" et j'ai indiqué un nom avec la valeur du secret ID. 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 25 42" src="https://github.com/user-attachments/assets/1bbcd596-baf8-4400-bd29-76e5b0eb36b2" />
 
-### Etape 17 :  
+### Etape 17 :  Important aussi pour Purview, le modèle de permission doit être Azure RBAC.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 27 25" src="https://github.com/user-attachments/assets/1d064cbe-d5a2-4297-b181-91558e755489" />
+
+### Etape 18 : Dernière chose, dans le compte Microsoft Purview lors de l'initialisation de Microsoft Purview, Vérifier qu'on a bien le rôle Owner d'assigner avec un utilisateur administrateur.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 28 20" src="https://github.com/user-attachments/assets/2d789ed3-15a9-465c-b653-4f6b36a3080a" />
+
+### Etape 19 : 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 29 08" src="https://github.com/user-attachments/assets/6557b4ad-d1ab-4d57-98f1-9b961af88426" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 30 00" src="https://github.com/user-attachments/assets/31049b0e-7f31-428c-9fa8-b44fa5b8da68" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 30 11" src="https://github.com/user-attachments/assets/764d1fb7-593d-467b-afc8-52ee5ad4b973" />
