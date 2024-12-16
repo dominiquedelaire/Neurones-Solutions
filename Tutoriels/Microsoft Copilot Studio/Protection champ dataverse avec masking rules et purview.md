@@ -118,13 +118,16 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 * Data Catalog Curators (important pour les sources de données, notamment pour faire le mapping)
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 10 13" src="https://github.com/user-attachments/assets/e5d7a3f7-4ebf-451d-b48a-1dc7cc94d240" />
 
-### Etape 6 : Maintenant que nous avons les rôles, nous allons commencer par référencer notre base de données dataverse de notre app Mylife365.    
+### Etape 6 : Maintenant que nous avons les rôles, nous allons commencer par référencer notre base de données dataverse de notre app Mylife365. Pour cela, Purview fonctionne avec des domaines, et pour chaque domaine, nous avons des collections. Dans les collections, on retrouve nos sources de données. Ici, nous allons créer un domaine.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 13 48" src="https://github.com/user-attachments/assets/f57543d5-3055-41fe-84ff-23a985f8e216" />
 
-### Etape 7 : 
+### Etape 7 : Puis une collection associée au domaine créé. 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 14 27" src="https://github.com/user-attachments/assets/ee0bacdc-1096-4598-a693-4f2f33968a69" />
+
+### Etape 8 : Dans notre collection, ne pas oublier aussi dans les assignements de rôles, de mettre un admin dans "Data curators" principalement.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 15 56" src="https://github.com/user-attachments/assets/b898e514-d878-4399-a53b-0cc532c5a4e9" />
-<img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 16 27" src="https://github.com/user-attachments/assets/be158725-27e7-4c72-92d7-081027fd61e7" />
+
+### Etape 9 : Puis dans Data Sources, nous allons ajouter notre base de données Dataverse.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 17 33" src="https://github.com/user-attachments/assets/f945b827-4f36-4842-873c-582baaa25332" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 17 49" src="https://github.com/user-attachments/assets/d32aacfd-db32-4642-985d-82e94a237d5b" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 19 42" src="https://github.com/user-attachments/assets/16a6443c-3bb3-444d-8f87-c6295ba635b7" />
