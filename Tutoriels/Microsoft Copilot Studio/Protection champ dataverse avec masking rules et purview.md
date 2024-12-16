@@ -141,12 +141,24 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 ### Etape 12 : Une fois que nous avons configuré notre connecteur, les prochaines étapes sont très importantes. Microsoft Purview a besoin de faire un scan pour obtenir la structure des tables, champs, etc.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 20 26" src="https://github.com/user-attachments/assets/0cabd8bc-6a00-4184-ac29-969240e9ec66" />
 
-### Etape 13 :  
+### Etape 13 :  Cela se complique un peu, car pour faire un scan, cela prend différentes choses :
+* Purview doit se connecter via non pas un utilisateur admin mais via des crédentiels générés par une "App Registration" de Microsoft Azure.
+* Le secret ID, même s'il est généré de l'app registration, doit aussi être dans un Key Vault de Microsoft Azure, c'est obligatoire pour Purview.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 21 11" src="https://github.com/user-attachments/assets/d0eca734-f01b-4615-ad7e-083b96e2006b" />
-<img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 22 43" src="https://github.com/user-attachments/assets/51839c9b-864d-4456-8194-78c06c08883c" />
+
+### Etape 14 : On a créé ici dans Microsoft Azure, une App Registration nommée "PurviewAccessDataverseApp". L'important ici est de générer un secret id et de noter les 3 informations dont nous nous serverons dans les prochaines étapes :
+* Le tenant ID qui est égal au Directory ID
+* L'application ID
+* et le secret ID.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 24 29" src="https://github.com/user-attachments/assets/293d52ad-4520-4c71-a2e5-04aa7b6c1532" />
+
+### Etape 15 : Dans Microsoft Azure, on doit aussi ajouter le secret ID généré à l'étape précédente dans un Key vault. 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 24 56" src="https://github.com/user-attachments/assets/68ec2fba-5f9f-4c56-b044-f7e08a1a02e2" />
+
+### Etape 16 : Ici, j'ai créé un Keyvault nommé "datavers-keyvault" avec un type d'objet "Secrets" et j'ai indiqué un nom avec la valeur du secret ID. 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 25 42" src="https://github.com/user-attachments/assets/1bbcd596-baf8-4400-bd29-76e5b0eb36b2" />
+
+### Etape 17 :  
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 27 25" src="https://github.com/user-attachments/assets/1d064cbe-d5a2-4297-b181-91558e755489" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 28 20" src="https://github.com/user-attachments/assets/2d789ed3-15a9-465c-b653-4f6b36a3080a" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 29 08" src="https://github.com/user-attachments/assets/6557b4ad-d1ab-4d57-98f1-9b961af88426" />
