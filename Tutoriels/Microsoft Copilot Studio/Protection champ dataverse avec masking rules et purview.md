@@ -251,11 +251,14 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 45 42" src="https://github.com/user-attachments/assets/02dee057-c2d0-47fd-9843-3b50f7eef3bf" />
 
 > 
-> **En résumé, Purview est un produit global de gouvernance de données mais qui n'a pas encore atteint une maturité pour pouvoir gérer tous les cas de sécurité, notamment avec dataverse**
+> **En résumé, Purview est un produit global de gouvernance de données mais qui n'a pas encore atteint une maturité pour pouvoir gérer tous les cas de sécurité, notamment avec dataverse.**
 > **Bien sur, nous pouvons avoir des alertes sur les classifications configurées pour les champs dataverse ainsi que sur les étiquettes de sensibilité mais pour faire un lien avec des champs d'une bd, les bd sont limitées pour le moment à quelques unes (Azure sql database, Fabric, etc.)**
 
-**Voici un exemple de logs que Purview a détecté car j'ai demandé dans mon prompt le Cellulaire. L'agent copilot ne m'a pas bloqué mais cela a envoyé une alerte comme quoi Purview a trouvé cette classification.
+**Voici un exemple de logs que Purview a détecté car j'ai demandé dans mon prompt le Cellulaire. L'agent copilot ne m'a pas bloqué mais cela a envoyé une alerte comme quoi Purview a trouvé cette classification.**   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 22 37 08" src="https://github.com/user-attachments/assets/6a875779-2249-4446-8212-68da214f3b2c" />
+
+**La force aussi de Purview, c'est de voir tous les documents qui ont une classification et données sensibles sur Onedrive, Sharepoint, Teams, Courriels, etc...**   
+<img width="1680" alt="Capture d’écran, le 2024-12-15 à 22 39 29" src="https://github.com/user-attachments/assets/3c50e1ae-191a-4edf-8503-1f7bdfb849ea" />
 
 
 # Partie 3 : Protection de la donnée Cellulaire avec les "Masking Rules" pour Copilot Studio et autres apps externes.
