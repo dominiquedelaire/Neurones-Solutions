@@ -311,7 +311,17 @@ Pour afficher le résultat de ce test, il faut d'abord enregistrer votre règle 
 
 # Conclusion
 
-
+* Nous avons vu qu'une solution viable serait d'utiliser les "Masking rules". Pour le moment cette fonctionnalité est encore en version préliminaire, donc je ne la conseillerais pas pour le moment à court terme dans un environnement de production. Elle devrait être disponible rapidement par contre et être généralisée dans les environnements de prod dans les prochains mois.
+* Quand à Microsoft Purview, c'est un outil important pour gérer la gouvernance des données et on se rend compte que cela prend un méthodologie et des ressources dédiées à temps plein pour gérer cette gouvernance, notamment avec des intendants. Pour le moment, nous pouvons avoir des alertes mais on ne peut pas bloquer les valeurs de champs sensibles en dataverse dans Copilot par exemple. Mais là encore dans un proche avenir, cela devrait venir rapidement (Etiquettes liées à dataverse via une politique, DLP, etc.).
+* En attendant voici d'autres pistes de réflexion :
+  * Nous pourrions indiquer dans les instructions certains mots et affirmations afin qu'un agent spécifique ne réponde pas à la question du cellulaire par exemple. Par contre, cette sécurité est limitée pour l'agent en tant que telle
+  * On pourrait intégrer du code c# à notre agent Copilot pour gérer une sécurité ou développer un module de sécurité spécifique même si on privilégie ici du Low Code.
+     * Connecteurs Personnalisés (Custom Connectors) :
+       * Vous pouvez développer un service ou une API REST en C# (par exemple, une API ASP.NET Core hébergée sur Azure App Service ou une Azure Function en C#). Une fois déployé, vous créez un connecteur personnalisé dans le Power Platform pour exposer vos endpoints. Ensuite, dans Copilot Studio (ou Power Virtual Agents), vous pouvez appeler ce connecteur en tant qu’action. Votre agent pourra donc accéder à la logique métier implémentée en C#, sans que le code soit directement inséré dans Copilot Studio.
+     * Azure Functions :
+       * Si vous avez une logique métier ou des traitements spécifiques, vous pouvez les encapsuler dans une Azure Function écrite en C#. Cette Azure Function sera appelée via un connecteur personnalisé. Encore une fois, vous intégrez la fonction à l’agent Copilot comme une action.
+     * Plug-ins Dataverse (si vos données sont dans Dataverse) :
+       * Vous pouvez écrire des plug-ins en C# (assemblies .NET) qui s’exécutent sur certains évènements Dataverse. Bien que ces plug-ins soient déclenchés principalement par des actions Dataverse (création, mise à jour d’enregistrements), leur logique peut indirectement être utilisée pour répondre aux requêtes de l’agent si ce dernier provoque des opérations sur Dataverse. Ce n’est pas une intégration directe dans Copilot Studio, mais une manière d’insérer de la logique C# dans le pipeline de données auquel Copilot accède.
 
 
 > Comme d'habitude, Si vous avez des questions ou un projet, vous pouvez me contacter sur [Linkedin](https://www.linkedin.com/in/dominiquedelaire/)
