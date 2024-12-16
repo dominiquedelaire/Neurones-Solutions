@@ -191,16 +191,28 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 ### Etape 27 : Après le dernier scan, on voit dans notre collection, le nombre d'Assets (Eléments sélectionnés dans notre dataverse), le nombre de sources de données et le nombre de scans effectués.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 33 34" src="https://github.com/user-attachments/assets/acc9649f-c8b7-4023-908f-f4fb5be34350" />
 
-### Etape 28 : Dans nos tables dataverse, c'est ici que l'on va pouvoir déjà faire une classification de certains de nos champs.    
+### Etape 28 : Dans nos tables dataverse, c'est ici que l'on va pouvoir déjà faire une classification de certains de nos champs (Déterminer des champs à haut risque pour l'exfiltration et autres). Il suffit d'abord d'aller dans le "Catalogue unifié".      
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 34 11" src="https://github.com/user-attachments/assets/3a1cfe77-4514-46e6-aa44-48e27a21b287" />
 
-### Etape 29 : 
+### Etape 29 : En sélectionnant notre table "Entité", on a une vue sur les classifications déjà effectuées sur un ou plusieurs champs et différents autres paramètres.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 34 23" src="https://github.com/user-attachments/assets/828b1663-7592-4d08-a39c-a4532adf203d" />
+
+### Etape 30 : Dans Schéma, on peut voir l'ensemble des colonnes. Ici on voit que la colonne cellulaire a déja été classifiée.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 34 50" src="https://github.com/user-attachments/assets/ad4776db-0954-4856-981a-2748963c480e" />
+
+### Etape 31 : Si on clique sur la colonne Cellulaire, on voit les informations générales de la colonne.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 35 13" src="https://github.com/user-attachments/assets/a7fe34b4-2402-4a91-88d5-ba08945f4931" />
+
+### Etape 32 : En cliquant sur "Edit", on peut ajouter une classification pour ce champ.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 35 32" src="https://github.com/user-attachments/assets/7495d157-f2b8-4b53-acd5-94d99521c522" />
+
+### Etape 33 :  Il y a des classifications par défaut et nous pouvons aussi en ajouter dans le paramétrage Purview. Ici j'ai indiqué que le cellulaire était un EU Passport Number mais même si ce n'est pas le càs, Purview va l'interpréter de cette façon.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 35 41" src="https://github.com/user-attachments/assets/91155691-3ef7-48e7-8088-41699004a920" />
+
+### Etape 34 : En plus des classifications, pour protéger nos données, nous pouvons définir des étiquettes de sensibilité.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 36 13" src="https://github.com/user-attachments/assets/1ad38fd1-101f-449b-9139-658997075afe" />
+
+### Etape 35 :  
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 37 03" src="https://github.com/user-attachments/assets/04094cfb-c6ac-495e-9a7e-fa6c7c072ea3" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 37 17" src="https://github.com/user-attachments/assets/2bd49d99-3609-480c-a396-4f349ba37b2a" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 37 26" src="https://github.com/user-attachments/assets/fa0bc0ca-ef22-4e49-bd42-56e771d4fc2a" />
