@@ -19,6 +19,7 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 Sans tout dévoiler, il y a bien une solution qui fonctionne très bien pour protéger un ou plusieurs valeurs de champs de table dans les requêtes Copilot et autres.
 
 # Prérequis
+* Etre familier avec l'environnement PowerApps et Dataverse.
 * Avoir un **compte Microsoft PowerApps** et un environnement de développement disposant d'une solution avec quelques tables au moins ou prendre notre solution PowerApps Model driver Open Source "Mylife365" ou "Compta365" comme exemple.
 * Avoir activé les **features de préversion** pour Microsoft PowerApps pour bénéficier par exemple des **"Masking Rules"** dans la sécurité des champs (disponible depuis août 2024).
 * Avoir **Copilot Studio**
@@ -93,7 +94,7 @@ Sans tout dévoiler, il y a bien une solution qui fonctionne très bien pour pro
 # Partie 2 : Gouvernance et protection des données avec Microsoft Purview
 > 
 > **Microsoft Purview assure une gestion de gouvernance des données. Nous pouvons notamment classifier des données en lien avec nos champs et tables Dataverse.**
-> **Nous pouvons créer aussi des étiquettes de sensibilité et recevoir des alertes. Nous pouvons aussi créer des règles pour gérer le "data loss protection" (DLP)**
+> **Nous pouvons créer aussi des étiquettes de sensibilité et recevoir des alertes. Nous pouvons aussi créer des règles pour gérer le "data loss prevention" (DLP)**
 > **Il y a quelques fonctions encore inaccessibles en dataverse qui nous limitent à certains fonctions pour notre agent Copilot Studio**
 > **Voici ce qu'on peut faire en lien avec notre bd dataverse de notre app mylife365 :**
 
@@ -248,6 +249,7 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 44 47" src="https://github.com/user-attachments/assets/e707e2f2-6825-4ce8-a62a-bda3c42a534f" />
 
 ### Etape 46 : Malheureusement la politique que nous pourrions mettre en place ne fonctionne pas non plus encore pour le moment pour dataverse. C'est disponible pour Microsoft 365 Copilot mais pas pour Copilot Studio et les autres Copilot (Financial, Dynamics, etc...)
+Les politiques DLP « classiques » (créées dans le Centre de Conformité Purview) ont été conçues pour M365 et visent principalement à identifier et prévenir les fuites de données sensibles (fichiers, messages, etc.) dans ce contexte.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 45 42" src="https://github.com/user-attachments/assets/02dee057-c2d0-47fd-9843-3b50f7eef3bf" />
 
 > 
@@ -327,6 +329,8 @@ Pour afficher le résultat de ce test, il faut d'abord enregistrer votre règle 
        * Vous pouvez écrire des plug-ins en C# (assemblies .NET) qui s’exécutent sur certains évènements Dataverse.
        * Bien que ces plug-ins soient déclenchés principalement par des actions Dataverse (création, mise à jour d’enregistrements), leur logique peut indirectement être utilisée pour répondre aux requêtes de l’agent si ce dernier provoque des opérations sur Dataverse.
        * Ce n’est pas une intégration directe dans Copilot Studio, mais une manière d’insérer de la logique C# dans le pipeline de données auquel Copilot accède.
+   * Via des scripts Powershell pour gérer les politiques "DLP" mais pour le moment côté Powerplatform et Dynamics, ces scripts DLP sont axés sur la gestion des connecteurs (controler quels connecteurs sont autorisés dans quel environnement), et non sur les champs ou l'accès granulaires aux données internes à Dataverse.   
+    
 
 
 > Comme d'habitude, Si vous avez des questions ou un projet, vous pouvez me contacter sur [Linkedin](https://www.linkedin.com/in/dominiquedelaire/)   
