@@ -107,11 +107,21 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 ### Etape 4 : Dans l'utilisateur ou les groupes, vous pouvez assigner les rôles nécessaires pour gérer les opérations dans Microsoft Purview.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 08 56" src="https://github.com/user-attachments/assets/c4f6d027-071a-47bf-8991-024998085d38" />
 
-### Etape 5 :
+### Etape 5 : Ensuite, dans Purview, on doit aussi affecter certains rôles spécifiques pour pouvoir par exemple gérer les connexions aux sources de données cloud ou externes, gérer des étiquettes de sensibilité, etc.
+Notamment, pour les sources de données et des opérations majeures de protection et de gouvernance, les rôles suivants doivent être donnés pour le paramétrage :
+* Compliance Administrator
+* Purview Administrator
+* Security Administrator
+* Compliance Data administrator
+* Data source administrators
+* Data Governance
+* Data Catalog Curators (important pour les sources de données, notamment pour faire le mapping)
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 10 13" src="https://github.com/user-attachments/assets/e5d7a3f7-4ebf-451d-b48a-1dc7cc94d240" />
-<img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 13 02" src="https://github.com/user-attachments/assets/5b1f342c-55cd-4e01-93ef-606b15cc7bb2" />
-<img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 13 24" src="https://github.com/user-attachments/assets/797bb1bf-df38-40af-8a89-546ef971f7e6" />
+
+### Etape 6 : Maintenant que nous avons les rôles, nous allons commencer par référencer notre base de données dataverse de notre app Mylife365.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 13 48" src="https://github.com/user-attachments/assets/f57543d5-3055-41fe-84ff-23a985f8e216" />
+
+### Etape 7 : 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 14 27" src="https://github.com/user-attachments/assets/ee0bacdc-1096-4598-a693-4f2f33968a69" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 15 56" src="https://github.com/user-attachments/assets/b898e514-d878-4399-a53b-0cc532c5a4e9" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 16 27" src="https://github.com/user-attachments/assets/be158725-27e7-4c72-92d7-081027fd61e7" />
