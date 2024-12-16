@@ -90,15 +90,24 @@ Nous allons **sécuriser des champs afin que Copilot Studio ne puisse pas retour
 
 # Partie 2 : Gouvernance et protection des données avec Microsoft Purview
 > 
-> **La fonction "Profils de sécurité de colonne" dans l'admin center de power platform ne suffit pas à protéger un champ ou la donnée du champ dans Copilot**
-> **Il faut utiliser aussi la nouvelle fonction préliminaire "Masking Rules" dans PowerApps.**
+> **Microsoft Purview assure une gestion de gouvernance des données. Nous pouvons notamment classifier des données en lien avec nos champs et tables Dataverse.**
+> **Nous pouvons créer aussi des étiquettes de sensibilité et recevoir des alertes. Nous pouvons aussi créer des règles pour gérer le "data loss protection" (DLP)**
+> **Il y a quelques fonctions encore inaccessibles en dataverse qui nous limitent à certains fonctions pour notre agent Copilot Studio**
+> **Voici ce qu'on peut faire en lien avec notre bd dataverse de notre app mylife365 :**
 
-### Etape 1 :
+### Etape 1 : Voici l'écran d'accueil de Microsoft Purview. Vous pouvez vous connecter et essayer la version d'essai sur https://purview.microsoft.com   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 06 32" src="https://github.com/user-attachments/assets/abe4b524-2b38-4b7f-9b8e-b7486cee8825" />
+
+### Etape 2 : Dans le paramétrage, vous pouvez vérifier votre type de compte. Il faut une version Entreprise pour pouvoir accéder à toutes les fonctions. De plus, côté utilisateur, l'utilisateur doit avoir au moins une licence M365 E3 ou E5 compliance.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 06 53" src="https://github.com/user-attachments/assets/ec1ca6e8-f442-4e22-a06a-9859892b8528" />
+
+### Etape 3 : La première chose à réaliser est de donner des permissions à différents rôles dans Purview qui vont nous permettre de faire différents types d'opérations. Quand vous sélectionnez notamment tous les Admin role avec le mot Administrator, vous pouvez ajouter ces rôles directement dans Azure et le ou les utilisateurs dans Microsoft Entra ID.  
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 07 35" src="https://github.com/user-attachments/assets/13590e63-c94c-447e-b88e-d43fd67f524e" />
-<img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 07 59" src="https://github.com/user-attachments/assets/a377d476-686a-4ff3-a1b5-53e579aaa3bc" />
+
+### Etape 4 : Dans l'utilisateur ou les groupes, vous pouvez assigner les rôles nécessaires pour gérer les opérations dans Microsoft Purview.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 08 56" src="https://github.com/user-attachments/assets/c4f6d027-071a-47bf-8991-024998085d38" />
+
+### Etape 5 :
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 10 13" src="https://github.com/user-attachments/assets/e5d7a3f7-4ebf-451d-b48a-1dc7cc94d240" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 13 02" src="https://github.com/user-attachments/assets/5b1f342c-55cd-4e01-93ef-606b15cc7bb2" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 13 24" src="https://github.com/user-attachments/assets/797bb1bf-df38-40af-8a89-546ef971f7e6" />
