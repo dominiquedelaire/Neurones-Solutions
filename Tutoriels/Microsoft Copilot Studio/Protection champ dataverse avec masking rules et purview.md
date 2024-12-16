@@ -122,10 +122,10 @@ Pour afficher le résultat de ce test, il faut d'abord enregistrer votre règle 
 ### Etape 7 : Ensuite on doit gérer à qui on affecte/assigne cette sécurité de colonne (Equipe et/ou utilisateur).   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 04 03" src="https://github.com/user-attachments/assets/599486f5-8734-41df-9288-0c64449b0ee5" />
 
-<img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 04 25" src="https://github.com/user-attachments/assets/5cc11f87-d6f1-4e42-9115-30b8c3949023" />
-
+### Etape 8 : On peut créer un nouveau profil de sécurité de colonne, nommé ici "Copilot Studio". 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 08 15" src="https://github.com/user-attachments/assets/eaa46492-a576-4a44-af91-b65dddbbc686" />
 
+### Etape 9 : Ensuite, dans le profil créé, on choisit notre champ Cellulaire pour lui affecter les autorisations et Equipes/Utilisateurs.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 12 11" src="https://github.com/user-attachments/assets/cd417087-0dfb-4a3b-8ba9-a3c044d7e36b" />
 
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 17 12 25" src="https://github.com/user-attachments/assets/cb21d196-b054-4de3-a22c-82d801c28803" />
