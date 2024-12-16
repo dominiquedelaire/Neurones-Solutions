@@ -130,10 +130,18 @@ Notamment, pour les sources de données et des opérations majeures de protectio
 ### Etape 9 : Puis dans Data Sources, nous allons ajouter notre base de données Dataverse.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 17 33" src="https://github.com/user-attachments/assets/f945b827-4f36-4842-873c-582baaa25332" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 17 49" src="https://github.com/user-attachments/assets/d32aacfd-db32-4642-985d-82e94a237d5b" />
+
+### Etape 10 : On indique le nom de la source de données, l'url de notre environnement dataverse (Adresse de l'instance powerApps ou Dynamics 365 sales) et la collection du domaine.    
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 19 42" src="https://github.com/user-attachments/assets/16a6443c-3bb3-444d-8f87-c6295ba635b7" />
+
+### Etape 11 : On voit maintenant notre nouvelle source de données créé. Nous pouvons avoir aussi une vue avec une arborescence au lieu d'un mode affichage en table.   
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 19 51" src="https://github.com/user-attachments/assets/20338f19-b7ef-4660-8aee-97fa6dd28e92" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 20 02" src="https://github.com/user-attachments/assets/6f54f2d5-093c-42f2-b845-ea870ef3d2b9" />
+
+### Etape 12 : Une fois que nous avons configuré notre connecteur, les prochaines étapes sont très importantes. Microsoft Purview a besoin de faire un scan pour obtenir la structure des tables, champs, etc.
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 20 26" src="https://github.com/user-attachments/assets/0cabd8bc-6a00-4184-ac29-969240e9ec66" />
+
+### Etape 13 :  
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 21 11" src="https://github.com/user-attachments/assets/d0eca734-f01b-4615-ad7e-083b96e2006b" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 22 43" src="https://github.com/user-attachments/assets/51839c9b-864d-4456-8194-78c06c08883c" />
 <img width="1680" alt="Capture d’écran, le 2024-12-15 à 20 24 29" src="https://github.com/user-attachments/assets/293d52ad-4520-4c71-a2e5-04aa7b6c1532" />
