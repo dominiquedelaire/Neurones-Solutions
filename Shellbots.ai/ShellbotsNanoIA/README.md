@@ -6,11 +6,11 @@ These machines are designed from **NVIDIA Jetson modules** to offer you a robust
 
 A presentation will be made at the **World Summit AI Montreal in April 2025 !** and like last year with practical concrete examples!
 
-**Whether you are working on:**
-🤖 Advanced robotics and autonomous robots
-🏥 Health and medical analysis
-📸 Image recognition and computer vision
-📊 Machine Learning and AI deployments in the field
+**Whether you are working on:**   
+>🤖 Advanced robotics and autonomous robots   
+>🏥 Health and medical analysis   
+>📸 Image recognition and computer vision   
+>📊 Machine Learning and AI deployments in the field   
 
 Shellbots NanoIA and ShellbotsOS offer you an optimized environment to accelerate the development and integration of your solutions.
 
