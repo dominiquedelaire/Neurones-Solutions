@@ -35,7 +35,7 @@ sudo mkdir -p /usr/share/shellbots/resources
 echo "'resources' subdirectory created successfully."
 
 # End of script
-echo "Nemo has been installed and configured as the default file manager. Restart your session if necessary."
+echo "Configuration has been installed. Restart your session if necessary."
 ```
 **Faire un chmod +x install_shellbots_structure.sh pour rendre le fichier exécutable et prêt à être exécuté.**
 
