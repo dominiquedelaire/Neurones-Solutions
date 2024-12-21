@@ -1,12 +1,37 @@
 On install Ubuntu 22.04.5 AMD64 and ARM versions (Jetson Orin Nvidia)
+# Create shellbots structure : install_shellbots_structure.sh
+```bash
+#!/bin/bash
 
 # Create shellbots structure
-* Mise à jour du système : sudo apt update && sudo apt upgrade -y (enter)
-* Installation de Nemo, gestionnaire de fichiers avec fonctions graphiques de root à la place de Nautilus :
-  * sudo apt install nemo -y (enter)
-  * Modifier l'association par défaut : xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search (enter)
-  * Empêcher Nautilus de gérer le bureau : gsettings set org.gnome.desktop.background show-desktop-icons false (enter)
-  * Activer Nemo pour gérer le bureau : nemo-desktop & (enter)
+# System update
+echo "System Update..."
+sudo apt update && sudo apt upgrade -y
+
+# Nemo installation, replace nautilus file management
+echo "Installation of Nemo..."
+sudo apt install nemo -y
+
+# Update file association nemo instead of Nautilus
+echo "Configuration of nemo to replace file management by default..."
+xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
+
+# Block Nautilus to manage desktop
+echo "Disabled nautilus..."
+gsettings set org.gnome.desktop.background show-desktop-icons false
+
+# Activate Nemo to manage desktop
+echo "Activation of Nemo to manage desktop..."
+nemo-desktop &
+
+# Creation directory Shellbots in /usr/share
+echo "Creating the 'shellbots' directory in /usr/share..."
+sudo mkdir -p /usr/share/shellbots
+echo "'shellbots' directory created successfully."
+
+# End of script
+echo "Nemo has been installed and configured as the default file manager. Restart your session if necessary."
+```
 
 
 
