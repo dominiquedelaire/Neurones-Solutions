@@ -1,9 +1,9 @@
 On install Ubuntu 22.04.5 AMD64 and ARM versions (Jetson Orin Nvidia)
 # Create shellbots structure : install_shellbots_structure.sh
 ```bash
+# Create shellbots structure and configuration
 #!/bin/bash
 
-# Create shellbots structure
 # System update
 echo "System Update..."
 sudo apt update && sudo apt upgrade -y
