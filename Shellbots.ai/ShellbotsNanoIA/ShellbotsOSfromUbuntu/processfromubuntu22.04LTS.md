@@ -27,5 +27,7 @@ On install Ubuntu 22.04.5 AMD64 and ARM versions (Jetson Orin Nvidia)
 * ThunderBird Mail
 
 # Update Settings
-* Add french language : Show Application > Language Support > Language Tab > Install / Remove languages > French > Apply
+* Optional (English US language and qwerty keyboard by default) :
+  * Add french language : Show Application > Language Support > Language Tab > Install / Remove languages > French > Apply
+  * Add azerty keyboard : Settings > Keyboard > + > French (France) > French (Azerty) > Add > set in first position if you work with azerty keyb.
 * Settings > Background > Add Picture > 
