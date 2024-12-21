@@ -1,5 +1,5 @@
-On install Ubuntu 22.04.5 AMD64 and ARM versions (Jetson Orin Nvidia)
-# Create shellbots structure : install_shellbots_structure.sh
+# On install Ubuntu 22.04.5 AMD64 and ARM versions (Jetson Orin Nvidia)
+## Create shellbots structure : install_shellbots_structure.sh
 ```bash
 # Create shellbots structure and configuration
 #!/bin/bash
@@ -41,7 +41,7 @@ echo "Configuration has been installed. Restart your session if necessary."
 
 
 
-# Remove Sotfware
+## Remove Sotfware
 **by Ubuntu Software**
 * AisleRiot Solitaire
 * Cheese
@@ -56,7 +56,7 @@ echo "Configuration has been installed. Restart your session if necessary."
 * Videos
 
 
-# Add Software
+## Add Software
 **by Ubunty Software**
 * Visual Studio Code
 
@@ -64,10 +64,10 @@ echo "Configuration has been installed. Restart your session if necessary."
 * Add sudo as group for shellbots : su - (enter) usermod -aG sudo shellbots (enter)
 * Chromium (web) :  sudo snap install chromium (enter)
 
-# Remove Favorites from taskbar
+## Remove Favorites from taskbar
 * ThunderBird Mail
 
-# Update Settings
+## Update Settings
 * Optional (English US language and qwerty keyboard by default) :
   * Add french language : Show Application > Language Support > Language Tab > Install / Remove languages > French > Apply
   * Add azerty keyboard : Settings > Keyboard > + > French (France) > French (Azerty) > Add > set in first position if you work with azerty keyb.
