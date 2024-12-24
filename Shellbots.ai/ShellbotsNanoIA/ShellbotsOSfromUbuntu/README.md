@@ -1,4 +1,4 @@
-# On install Ubuntu 22.04.5 AMD64 and ARM versions (Jetson Orin Nvidia)
+# On install Ubuntu 22.04.5 AMD64 and ARM versions (on Jetson Orin Nvidia or M2 M3 Max)
 **First, set shellbots user to sudo group**
 * connect as root user (Reboot, then key "Maj" to access recovery mode)
 * In mode recovery, choose "Drop to root shell prompt"
