@@ -8,7 +8,7 @@ These machines are designed from two different possible architectures :
 
 A presentation will be made at the **World Summit AI Montreal in April 2025 !** and like last year with practical concrete examples!
 
-These computers are **aimed at our customers and beginners as well as professionals in the different fields of AI**: Automation, Generative AI, Machine learning, Deep Learning, Robotics, Object Recognition, Vision, Development, etc.
+These computers are **aimed at our customers and beginners, students as well as professionals in the different fields of AI**: Automation, Generative AI, Machine learning, Deep Learning, Robotics, Object Recognition, Vision, Development, etc.
 We have **integrated under a custom ShellbotsOS Linux kernel** (Ubuntu base), a multitude of **open source AI tools, enterprise solutions (Nvidia, Microsoft, Google, OpenAI, etc.) as well as our Shellbots framework to quickly create specialized AI services**.   
 
 **Whether you are working on:**   
