@@ -1,6 +1,6 @@
-🚀 Shellbots NanoIA: A revolution for your AI or AI use projects 🤖
+🚀 Shellbots NanoAI: A revolution for your AI or AI use projects 🤖
 
-We are delighted to announce that ShellbotsOS and Shellbots, our environment and framework dedicated to AI, will now be integrated into our Shellbots NanoIA machines (Already available in the cloud on Azure, AWS and others)!
+We are delighted to announce that ShellbotsOS and Shellbots, our environment and framework dedicated to AI, will now be integrated into our Shellbots NanoAI machines (Already available in the cloud on Azure, AWS and others)!
 
 These machines are designed from two different possible architectures :
 * **NVIDIA Jetson modules** to offer you a robust and efficient solution for your artificial intelligence projects in local or cloud.
@@ -17,7 +17,11 @@ We have **integrated under a custom ShellbotsOS Linux kernel** (Ubuntu base), a 
 >📸 Image recognition and computer vision   
 >📊 Machine Learning and AI deployments in the field   
 
-Shellbots NanoIA and ShellbotsOS offer you an optimized environment to accelerate the development and integration of your solutions.
+Shellbots NanoAI and ShellbotsOS offer you an optimized environment to accelerate the development and integration of your solutions.
+
+**Architecture**
+![Shellbots NaNoIA Architecture (1300 x 492 px)](https://github.com/user-attachments/assets/2486d074-60c6-43f0-884b-02c92d69d69b)
+
 
 ⚙️ **Technical specifications of the NanoIA Shellbots:**
 - Choice between NVIDIA Jetson modules (Nano, Xavier, Orin) for AI performance adapted to your needs or Raspberry Pi 5 with AI Hat+
@@ -40,4 +44,4 @@ Shellbots NanoIA and ShellbotsOS offer you an optimized environment to accelerat
   - Multiple interfaces: USB, GPIO, UART, SPI, I2S, I2C for maximum flexibility
   - Support for the latest AI frameworks
 
-Our NanoIA Shellbots are modular, robust and ready to take on the challenges of your most ambitious AI projects.
+Our NanoAI Shellbots are modular, robust and ready to take on the challenges of your most ambitious AI projects.
