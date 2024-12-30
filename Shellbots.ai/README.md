@@ -1,13 +1,13 @@
 ![logo grand format pour vidéos](https://github.com/nuage365/Shellbots.ai/assets/102873102/4360ca48-a073-4312-9def-5e81c42ef907)
 
-> **`shellbots.ai`** is an **opensource framework and os** created by the french canadian company **Neurones Solutions** that **offers ai services** for companies with the creation of open source solution and different tools for building artificial intelligence services, building data models to train, predictive analysis and process automation. 
+> **`shellbots.ai`** is an **framework and os** created by the french canadian company **Neurones Solutions** that **offers ai services** for companies with the creation of open source solution and different tools for building artificial intelligence services, building data models to train, predictive analysis and process automation. 
 Its other added value is to have a platform that brings together all the AI ​​engines on the market to perform scoring and build models by business domain to have the most efficient AI services possible.
 
 > [**`Our Linkedin Page`**](https://www.linkedin.com/company/neurones-shellbots-ai/) &nbsp;&nbsp;&nbsp; 
 
 # Shellbots.ai - Documentation and Tutorials
 Framework and Operating system to create custom AI services and process.   
-> Our virtual machine and opensource OS will be available shortly on this platform once all the documentation is completed. We spent around almost 3 years building this platform :)
+> Shellbots and his environment are available for our customers in different ways : Virtual machine, Cloud, Docker, Shellbots NanoIA, etc.
 
 ## Tutorials
 
