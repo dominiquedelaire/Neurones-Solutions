@@ -23,7 +23,7 @@ Framework and Operating system to create custom AI services and process.
 
 ## Documentation
 
-[Read Documentation](https://github.com/nuage365/Shellbots.ai/tree/main/Documentation)
+**This documentation is not up to date and will be updated with our new NanoIA architecture.**
 
 
 ## Architecture
