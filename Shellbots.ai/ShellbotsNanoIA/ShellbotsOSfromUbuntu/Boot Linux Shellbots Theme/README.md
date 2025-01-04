@@ -10,10 +10,6 @@ Copy the finished theme to /usr/share/plymouth/themes:
 
 `sudo cp -r ~/Downloads/shellbots-colour-main/shellbots /usr/share/plymouth/themes`
 
-After copying, get a list of the installed themes with the following command:
+After copying, copy shellbots.plymouth in /usr/share/plymouth/themes/default.plymouth.
 
-`plymouth-set-default-theme --list`
-
-Set it to shellbots theme:
-
-`sudo plymouth-set-default-theme shellbots -R`
+Then to activate update : sudo update-initramfs -u
