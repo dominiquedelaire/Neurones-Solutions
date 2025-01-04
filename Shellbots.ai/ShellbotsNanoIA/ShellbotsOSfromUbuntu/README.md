@@ -58,7 +58,8 @@ sudo apt remove --purge thunderbird -y
 sudo snap install chromium
 sudo apt install plymouth plymouth-themes -y
 sudo apt install python3-pip -y
-sudo apt install gnome-shell-extensions
+sudo apt install gnome-tweaks -y
+sudo apt install gnome-shell-extensions -y
 
 # End of script
 echo "Configuration has been installed. Restart your session if necessary."
