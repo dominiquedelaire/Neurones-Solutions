@@ -108,3 +108,5 @@ echo "Configuration has been installed. Restart your session if necessary."
 * Settings > Privacy >  File History & Trash > File History (Off)
 * Settings > Power > Power Saving Options > Screen Blank (Never)
 * Settings > Displays > Fractional Scaling (ON)
+* In Gnome Extensions, set to ON features :
+  * Extensions, Desktop Icons NG, Ubuntu Appindicators, Ubuntu Dock, User Themes (Settings) 
