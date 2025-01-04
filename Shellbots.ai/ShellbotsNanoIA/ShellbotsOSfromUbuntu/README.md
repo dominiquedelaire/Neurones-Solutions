@@ -54,9 +54,11 @@ sudo rm simple-scan.desktop
 sudo rm -rf /usr/share/libreoffice
 sudo rm -rf /etc/libreoffice
 sudo apt remove --purge thunderbird -y
+# install other apps and modules
 sudo snap install chromium
 sudo apt install plymouth plymouth-themes -y
 sudo apt install python3-pip -y
+sudo apt install gnome-shell-extensions
 
 # End of script
 echo "Configuration has been installed. Restart your session if necessary."
