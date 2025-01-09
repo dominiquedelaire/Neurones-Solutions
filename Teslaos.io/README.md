@@ -7,7 +7,7 @@ J'ai mis plein d'applications web existantes et j'ai notamment intégré waze da
 
 Les résultats sont meilleurs dans une voiture Tesla, peu importe le modèle puisque certaines fonctions comme le plein écran ou waze intéragissent seulement avec les tesla :)
 
-Le 1er novembre 2024, je laisse le produit tel quel car je me consacre entièrement à la recherche en IA dans le domaine de la santé.
+Le 1er novembre 2024, je laisse le produit tel quel car je me consacre entièrement à la recherche en IA dans le domaine de la santé et pour améliorer notre os et framework Shellbots dédié à l'IA.
 
 Vous pouvez le distribuer, le reproduire ou le modifier pour une utilisation personnelle ou commerciale.
 
