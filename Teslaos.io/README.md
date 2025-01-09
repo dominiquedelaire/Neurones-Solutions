@@ -1,7 +1,7 @@
 # teslaos.io
 Environnement gratuit web et applicatifs pour les voitures Tesla (Modèles 3, Y, S, X et Cybertruck)
 
-Peut être hébergé sur n'importe quel serveur web.
+Peut être hébergé sur n'importe quel serveur web. Pour certains programmes que j'ai créé comme teslawaze, il faut que votre site web qui accueille ses fichiers soit en https, sinon certaines apps ne s'afficheront pas.
 
 J'ai mis plein d'applications web existantes et j'ai notamment intégré waze dans l'écran Tesla en jouant en javascript avec les coordonnées géographiques de la tesla.
 
