@@ -123,12 +123,48 @@ sudo usermod -aG docker $USER
 newgrp docker   
 Tester Docker : docker run hello-world   
 
-## Install JGmenu
-sudo apt install jgmenu   
-mkdir -p ~/.config/jgmenu   
-jgmenu init -d ~/.config/jgmenu   
-* Main file to update : see Files on current directory
-  * jgmenurc → Configuration générale (transparence, polices, couleurs)
-  * custom.csv → Ajout de nouvelles entrées et sous-menus
-  * theme → Apparence avancée
+## Install for update gnome menu
+sudo apt install alacarte
 
+## Install Gnome Extension Manager
+sudo apt install gnome-shell-extensions gnome-shell-extension-manager
+* Run Extension manager and dowload and activate extenstion "Just Perfection"
+* Settings "Just Perfection" Extension
+  * Profile : Custom
+  * Override : Shell Theme (set to ON)
+  * Tab Visibility :
+    * Panel (ON)
+    * Activities Button (OFF)
+    * App Menu (ON)
+    * App Menu Label (ON)
+    * Clock Menu (ON)
+    * Keyboard Layout (ON)
+    * Accessibility Menu (OFF) ON depend from user
+    * System menu (ON)
+    * World Clock (ON)
+    * Weather (ON)
+    * Calendar (OFF)
+    * Events (OFF)
+    * Search (OFF)
+    * Dash (OFF)
+    * Dash Separator (OFF)
+    * Dash App Running Indicator (ON)
+    * Show Applications Button (OFF)
+    * On Screen Display (ON)
+    * Workspace Popup (ON)
+    * Workspace Switcher (OFF)
+    * Workspace App Grid (OFF)
+    * Window Picker Close Button (ON)
+    * Window Picker Caption (ON)
+    * Background Menu (OFF)
+    * Riplle Box (OFF)
+    * Take Screenshot button (ON)
+  * Tab Icons
+    * App Menu Icon (ON)
+    * Panel Notification (OFF)
+    * Power Icon (ON)
+    * Window Picker Icon (ON)
+  * Tab Customize
+    * Panel Position : Bottom
+    * Clock Menu Position : Center      
+* In Extension Manager, Add "OpenWeather" as extension.
