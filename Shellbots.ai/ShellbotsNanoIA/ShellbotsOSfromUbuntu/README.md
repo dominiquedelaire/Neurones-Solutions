@@ -110,4 +110,25 @@ echo "Configuration has been installed. Restart your session if necessary."
 * Settings > Power > Power Saving Options > Screen Blank (Never)
 * Settings > Displays > Fractional Scaling (ON)
 * In Gnome Extensions, set to ON features :
-  * Extensions, Desktop Icons NG, Ubuntu Appindicators, Ubuntu Dock, User Themes (Settings) 
+  * Extensions, Desktop Icons NG, Ubuntu Appindicators, Ubuntu Dock, User Themes (Settings)
+
+## Install Docker
+sudo apt install -y ca-certificates curl gnupg lsb-release
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+sudo apt update
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo usermod -aG docker $USER
+newgrp docker
+Tester Docker : docker run hello-world
+
+## Install JGmenu
+sudo apt install jgmenu
+mkdir -p ~/.config/jgmenu
+jgmenu init -d ~/.config/jgmenu
+* Main file to update : see Files on current directory
+  * jgmenurc → Configuration générale (transparence, polices, couleurs)
+  * custom.csv → Ajout de nouvelles entrées et sous-menus
+  * theme → Apparence avancée
+
